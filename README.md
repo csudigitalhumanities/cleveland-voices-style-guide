@@ -105,9 +105,18 @@ In this example, the phrase “I think” was sufficient to communicate that the
 The key considerations when editing for readability are that your changes must never *misrepresent* the speaker, and must not *obscure* meaning, and must not *omit* useful information.
 
 ### Punctuation
-Make sparing use of advanced punctuation, adding improvements only where it is necessary to reach a baseline of readability. Most of the time it will be fine to end incomplete sentences with a simple period. It is not necessary to put every nested aside between em dashes. It is not necessary to put every spoken quotation in actual quotes. It is not necessary to use commas for every single clause or preamble.
+Make sparing use of advanced punctuation, adding improvements only where it is necessary to reach a baseline of readability. Most of the time it will be fine to end incomplete sentences with a simple period. It is not necessary to put every nested aside between em dashes. It is not necessary to put every spoken quotation in actual quotes. It is not necessary to use commas for every single clause or preamble. As a general rule: when in doubt, maybe just use a period?
 
-As a general rule: when in doubt, maybe just use a period?
+Look for instances where the existing punctuation is problematic for reasons of readability or meaning. For example, consider how the placement of a period and a comma affects the meaning of the following statement.
+
+Original transcription:
+```
+The murderer protested his innocence an hour after he was hanged.
+```
+Improved transcription:
+```
+The murderer protested his innocence. An hour after, he was hanged.
+```
 
 ### Spelling and Capitalization
 Spelling is perhaps the most common improvement you will need to make. 
@@ -116,14 +125,51 @@ Spelling issues are not always easily identifiable via a quick scan of the trans
 
 Look in particular at the spelling of proper nouns, especially those tied to local places and culture. For example, it’s not uncommon to find Cayuga instead of Cuyahoga. 
 
-Regional and ethnic accents can also influence transcription accuracy. For example, you might find “pro geese” instead of pierogis.
+Regional and ethnic accents and uncommon terms can also influence transcription accuracy. For example, you might find “pro geese” instead of pierogis or "vans where engine" instead of Van Sweringen.
 
 If you’re unsure how to spell personal names try searching online. Newspaper and obituary results are often most helpful.
 
 Sometimes the words themselves may be correct but are not properly capitalized, spaced, or formatted. For example, look out for “metro parks” when the more accurate transcription would be Metroparks (when speaking of the Cleveland area park system). Likewise, Sherwin-Williams is always hyphenated (when speaking of the paint company) and “Lake View” is always two capitalized words when speaking of the east side cemetery.
 
+### Quotations
+Generally, you do not need to place spoken quotations inside quotation marks. The exception would be when the speaker is unambiguously intending to communicate an exact quotation. 
+
+For instance, do use quotation marks for the following:
+
+```
+My favorite Ghoulardi catch phrase is "Stay Sick!"
+```
+
+Do not use quotations marks for reported speech that may be paraphrased:
+
+```
+Ernie Anderson told me don't bother calling the station manager, he doesn't listen anyway.
+```
+
 ### Sensitive Information
 If you encounter a birth date, omit the exact month and date (leaving the year intact if applicable) by using editorial brackets. You can use bracketed ellipses or some other bracketed word or phrase that maintains the cadence of the sentence being edited. For instance, you could use “I was born [...] 1990” or instead “I was born [in] 1990” – either is fine. 
+
+### Crosstalk
+It is not uncommon for interview participants to interrupt, interject, or speak over one another in the course of the interview. This could be a simple "wow" spoken by the interviewer as the interviewee is telling a story or it might be a more complicated and substantive back and forth. In some cases, the generated transcript may attribute text to the wrong speaker. In extreme cases, crosstalk makes parts of the audio difficult or even impossible to decipher. Exercise judgment when deciding how to handle crosstalk. 
+
+If the crosstalk cannot be effectively transcribed or if it doesn't convey any useful information, you may simply annotate the passage with `[crosstalk]` to indicate that there was some crosstalk happening in that moment, which may impact accuracy.
+
+If the interviewee repeatedly interjects with affirmations like "ah ok" and "uh huh" you may simply omit those from the transcript.
+
+If crosstalk results in a passage that is incorrectly attributed or not transcribed at all, fix the error, adding the correct speaker names, timestamps, and text. If needed you may reuse a timestamp for consecutive blocks where participants are speaking at the same time. For example:
+
+```
+Angelo [00:02:01] And what year was that?
+
+Mia [00:02:04] That was 1967.
+
+José [00:02:04] That was 1969.
+
+Mia [00:02:07] Oh yes José is correct actually. 1969.
+```
+
+### Indecipherable Words or Passages
+Sometimes a passage may be difficult or impossible to accurately transcribe due to crosstalk, heavy accents, unidentifiable words, or file corruption. If an accurate transcription cannot be ascertained you may add `[inaudible]` to indicate where the issue occurs. Do not use qualitative annotations like "slurred" or "garbled," which may offend the speaker.
 
 ### Speaker Names and Timestamps
 Make sure that the speaker names are uniform and correct and that the speaker name is always displayed along with the timestamp. Below is an example of the correct format:
@@ -156,7 +202,7 @@ When saving the file, make sure the file extension is `.txt`.
 *Do not* use Microsoft Word, Apple Pages, Libre Office, Google Docs, or any other document design software when working with plain text, especially when creating content for the web. These apps are designed around print-based use cases and often add hidden formatting and other junked-up characters that can be disruptive in online contexts. 
 
 ### Why do I need to transcribe the interview? 
-The transcript provides details that are not easily extracted from an original audio or video file. By providing a text-based transcript, the contents of the interview can be more easily indexed by search engines and more easily discovered by researchers. They also provide a scannable preview of the original audio, making it easier to determine if the contents are relevant to the user. Moreover, transcription produces an equivalent experience for hearing-impaired users and others who may not be able to use the interview in its original form. Making interviews accessible is the right thing to do for project success, for researcher access, and for users, particularly those with sensory disabilities but also those who simply wish to to read or scan. It’s also required by state and federal law, as well as by CSU Library, in accordance with the Americans with Disabilities Act (ADA).
+The transcript provides details that are not easily extracted from an original audio or video file. By providing a text-based transcript, the contents of the interview can be more easily indexed by search engines and more easily discovered by researchers. They also provide a scannable preview of the original audio, making it easier to determine if the contents are relevant to the user. Moreover, transcription produces an equivalent experience for hearing-impaired users and others who may not be able to use the interview in its original form. Making interviews accessible is the right thing to do for project success, for researcher access, and for users, particularly those with sensory disabilities but also those who simply wish to read or scan. It’s also required by state and federal law, as well as by CSU Library, in accordance with the Americans with Disabilities Act (ADA).
 
 ### How much time do I need to correct an interview transcript?
 If you were present at the recording of the interview, it should not take very long to make the necessary corrections – maybe just the duration of the recording. If you are transcribing an unfamiliar interview it may take longer – perhaps twice the length of the recording or a bit more. In any case, this is much faster than traditional transcription from-scratch which often took non-experts up to 10 times the duration of the recording.
